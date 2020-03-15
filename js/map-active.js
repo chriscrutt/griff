@@ -5,8 +5,8 @@ var stylez = [{
     elementType: "all",
     stylers: [{
         saturation: -10
-            }]
-        }];
+    }]
+}];
 var mapOptions = {
     zoom: 15,
     center: latlng,
@@ -22,7 +22,7 @@ var geocoder_map = new google.maps.Geocoder();
 var address = 'New york';
 geocoder_map.geocode({
     'address': address
-}, function (results, status) {
+}, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
         map.setCenter(results[0].geometry.location);
         var marker = new google.maps.Marker({
