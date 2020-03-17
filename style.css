@@ -1033,21 +1033,22 @@ span.accor-open {
     margin-bottom: 50px;
 }
 
-.few-words-contents-I,
-.few-words-contents-G,
+/* .few-words-contents-I,
+.few-words-contents-G, */
 .few-words-thumb {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    height: 770px;
+    padding: 75px 10px;
+    /* height: 770px; */
 }
 
-.few-words-contents-G {
+.indigoBackground {
     background-color: #211b31;
 }
 
-.few-words-contents-I {
+.greenBackground {
     background-color: #2b311b;
 }
 
