@@ -1033,7 +1033,8 @@ span.accor-open {
     margin-bottom: 50px;
 }
 
-.few-words-contents,
+.few-words-contents-I,
+.few-words-contents-G,
 .few-words-thumb {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
@@ -1042,8 +1043,12 @@ span.accor-open {
     height: 770px;
 }
 
-.few-words-contents {
+.few-words-contents-G {
     background-color: #211b31;
+}
+
+.few-words-contents-I {
+    background-color: #2b311b;
 }
 
 .few-words-text .section-heading {
