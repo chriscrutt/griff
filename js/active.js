@@ -43,12 +43,12 @@
     if ($.fn.owlCarousel) {
         $(".mosh-workflow-slides").owlCarousel({
             items: 3,
-            loop: true,
-            autoplay: true,
-            smartSpeed: 800,
+            // loop: true,
+            // autoplay: true,
+            // smartSpeed: 800,
             margin: 30,
             center: true,
-            dots: true,
+            // dots: true,
             startPosition: 1,
             responsive: {
                 0: {

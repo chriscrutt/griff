@@ -1,5 +1,5 @@
 var map;
-var latlng = new google.maps.LatLng(40.730610, -73.935242);
+var latlng = new google.maps.LatLng(46.2202, 6.1833);
 var stylez = [{
     featureType: "all",
     elementType: "all",
@@ -8,7 +8,7 @@ var stylez = [{
     }]
 }];
 var mapOptions = {
-    zoom: 15,
+    zoom: 14.5,
     center: latlng,
     scrollwheel: false,
     scaleControl: false,
@@ -19,7 +19,7 @@ var mapOptions = {
 };
 map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 var geocoder_map = new google.maps.Geocoder();
-var address = 'New york';
+var address = '1223, Chemin de Ruth 9, 1223 Cologny, Switzerland';
 geocoder_map.geocode({
     'address': address
 }, function(results, status) {
