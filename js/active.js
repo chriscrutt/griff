@@ -67,12 +67,13 @@
     if ($.fn.owlCarousel) {
         $(".mosh-team-slides").owlCarousel({
             items: 3,
-            loop: true,
-            autoplay: true,
-            smartSpeed: 800,
+            // loop: true,
+            // autoplay: true,
+            // smartSpeed: 800,
+            startPosition: 1,
             margin: 50,
             center: true,
-            nav: true,
+            // nav: true,
             navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>', '<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
             responsive: {
                 0: {
