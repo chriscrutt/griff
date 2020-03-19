@@ -785,6 +785,22 @@ img {
     transition-duration: 500ms;
 }
 
+.single-workflow-area-a>h2 {
+    font-size: 16px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 47px;
+    flex: 0 0 47px;
+    width: 47px !important;
+    height: 47px !important;
+    text-align: center;
+    background-color: #4a7aec;
+    color: #f3f5f9;
+    line-height: 47px;
+    border-radius: 50%;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
 .workflow-content h4 {
     margin-bottom: 30px;
 }
@@ -792,6 +808,11 @@ img {
 .single-workflow-area:hover h2 {
     background-color: #4a7aec;
     color: #fff;
+}
+
+.single-workflow-area-a:hover h2 {
+    background-color: #f3f5f9;
+    color: #000;
 }
 
 .workflow-slides-area {
